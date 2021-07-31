@@ -50,7 +50,7 @@ body::-webkit-scrollbar {
   }
 
   .box-1 {
-    right:-80px;
+    right:0;
     top:-20%;
   }
 
