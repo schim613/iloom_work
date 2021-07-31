@@ -101,13 +101,9 @@ body::-webkit-scrollbar {
   }
 
   .box-9 {
-    top:50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+    right:0; }
 
   .box-10 {
-    top:432px;
-    left:50%;
-    transform: translateX(-50%);
+    top:185px;
+    left:162px;
   }
