@@ -39,3 +39,75 @@ body::-webkit-scrollbar {
   .section {
     width:calc(1920px - 16px);
   }
+
+  .section {
+    position: relative;
+  }
+
+  .section__item {
+    position: absolute;
+    top:0;
+  }
+
+  .box-1 {
+    right:-80px;
+    top:-20%;
+  }
+
+  .box-2 {
+    top:50%;
+    transform: translateY(-50%);
+  }
+
+  .box-3 {
+    top:125px;
+    left:162px;
+  }
+
+  .box-4 {
+    top:364px;
+    left:162px;
+  }
+
+  .box-6-1 {
+    top:200px;
+    left:20px;
+  }
+
+  .box-6-2 {
+    top:400px;
+    right:220px;
+  }
+
+  .box-7-1 {
+    top:382px;
+    left:209px;
+  }
+
+  .box-7-2 {
+    top:1063px;
+    right:142px;
+  }
+
+  .box-7-3 {
+    top:1907px;
+    right:142px;
+  }
+
+  .box-8-1 {
+    top:200px;
+    left:50%;
+    transform: translateX(-50%);
+  }
+
+  .box-9 {
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .box-10 {
+    top:432px;
+    left:50%;
+    transform: translateX(-50%);
+  }
