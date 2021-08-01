@@ -6,8 +6,6 @@ gsap.from('.box-2', {
     duration:1,
     scrollTrigger:{
       trigger:'.box-2',
-      markers:true,
-      start:'-20%, 80%'
     }
   });
 
@@ -19,8 +17,6 @@ gsap.from('.box-3', {
     duration:1,
     scrollTrigger:{
       trigger:'.box-3',
-      markers:true,
-      start:'-30%, 80%'
     }
   });
 
