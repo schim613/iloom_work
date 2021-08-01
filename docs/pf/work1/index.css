@@ -69,6 +69,13 @@ body::-webkit-scrollbar {
     left:162px;
   }
 
+  .box-5 {
+    width:350px;
+    top:364px;
+    left:50%;
+    transform: translateX(-50%);
+  }
+
   .box-6-1 {
     top:200px;
     left:20px;
@@ -84,9 +91,16 @@ body::-webkit-scrollbar {
     left:209px;
   }
 
-  .box-7-2 {
+  .box-7-2-1 {
     top:1063px;
-    right:142px;
+    right:130px;
+  }
+
+  .box-7-2-2 {
+    width:400px;
+    top:1275px;
+    right:430px;
+    border-radius: 50%;
   }
 
   .box-7-3 {
