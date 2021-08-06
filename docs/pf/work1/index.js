@@ -1,3 +1,8 @@
+// 이미지 로딩 기다리기
+$('body').imagesLoaded(function() {
+  let $grid = $('body').masonry();
+});
+
 // box-2 : 개요 아이템
 gsap.from('.box-2', {
     ease:Expo.easeIn,
